@@ -5,6 +5,7 @@
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
+
 /* Color Variables */
 :root {
   --accent-color: #10b981;
@@ -13,24 +14,31 @@
   --main-color: #1f2937;
   --accent-dark: #273549;
 }
+
 /* Typography Styling */
 h2 {
   color: var(--accent-color);
+  text-align: left; /* Align h2 to the left */
 }
+
 h1 {
   color: var(--white-text);
   font-size: 1.9rem;
+  text-align: left; /* Align h1 to the left */
 }
+
 p {
   color: var(--gray-text);
   font-size: 0.95rem;
   padding-top: 1rem;
+  text-align: left; /* Align p to the left */
 }
+
 /* Main Container Layout Styling */
 .main-container {
   width: 90%;
-  max-width: 34.375rem;
-  height: auto;
+  max-width: 28rem;
+  min-height: 28rem;
   margin: 5% auto;
   padding: 3%;
   display: flex;
@@ -40,14 +48,16 @@ p {
   background: var(--main-color);
   border-radius: 0.6rem;
 }
+
 /* Text Section Layout Styling */
 .text-section {
   align-items: flex-start;
   width: 100%;
   padding-top: 0;
   margin-left: 0;
-  text-align: center;
+  text-align: left; /* Ensure text is aligned to the left */
 }
+
 .btn {
   display: flex;
   justify-content: center;
@@ -63,6 +73,7 @@ p {
   font-size: 0.85rem;
   margin-left: 0;
 }
+
 .btn:hover {
   cursor: pointer;
   background: #248c69;
@@ -78,6 +89,7 @@ p {
   padding-top: 2rem;
   margin-top: 2rem;
 }
+
 .input-box-1,
 .input-box-2 {
   align-items: center;
@@ -89,6 +101,7 @@ p {
   height: 2.4375rem;
   color: var(--accent-color);
 }
+
 .input-box-1,
 .input-box-2:hover {
   cursor: pointer;
@@ -102,8 +115,8 @@ p {
   .input-box-1,
   .input-box-2 {
     margin: 10px 0;
-    height: 2rem;
-    padding: 1rem;
+    height: 1rem;
+    padding: .80rem;
     align-items: center;
     display: flex;
     justify-content: center;
