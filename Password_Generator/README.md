@@ -1,5 +1,6 @@
 # Password Generator
 <img src="asset-folder/password app image.png" width="400" alt="password app"></img>
+
 This project is a simple password generator that allows users to generate random passwords and copy them to the clipboard. The project demonstrates various JavaScript concepts and techniques.
 
 ## Concepts Learned
